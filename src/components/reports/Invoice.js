@@ -30,7 +30,7 @@ const styles = StyleSheet.create({
             <Document>
                 <Page size="A4" style={styles.page}>
                     <Image style={styles.logo} src={logo} />
-                    <InvoiceTitle title='Invoice'/>
+                    <InvoiceTitle title='Mechanic Invoice'/>
                     <InvoiceNo invoice={invoice}/>
                     <BillTo invoice={invoice}/>
                     <InvoiceItemsTable invoice={invoice} />
